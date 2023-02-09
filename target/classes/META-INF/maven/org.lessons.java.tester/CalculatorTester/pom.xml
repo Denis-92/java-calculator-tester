@@ -3,4 +3,24 @@
   <groupId>org.lessons.java.tester</groupId>
   <artifactId>CalculatorTester</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+ 
+    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+
+  </properties>
+  
+  <dependencies>
+	  
+	 <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+	<dependency>
+	    <groupId>org.junit.jupiter</groupId>
+	    <artifactId>junit-jupiter-api</artifactId>
+	    <version>5.9.2</version>
+	    <scope>test</scope>
+	</dependency>
+
+
+  </dependencies>
 </project>
