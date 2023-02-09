@@ -35,7 +35,7 @@ public class CalculatorTest {
 	@DisplayName("verifica eccezzione nella divisione")
 	void testDivideException() {
 		assertThrows(IllegalArgumentException.class,
-		() -> testingCalculator.divide(10, 0),
+		() -> testingCalculator.divide(10F, 0F),
 		"Mi aspetto il lancio dell'eccezzione IllegalArgumentException");
 	}
 	
